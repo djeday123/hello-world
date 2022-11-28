@@ -1,11 +1,11 @@
 function myModule() {
     this.hello = function() {
         console.log('hello');
-    }
+    };
 
     this.goodbye = function() {
         console.log('bye');
-    }
+    };
 }
 
-myModule.exports = myModule
+myModule.exports = myModule;
